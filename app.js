@@ -21,7 +21,7 @@ var commentRoutes    = require("./routes/comments"),
     indexRoutes      = require("./routes/index")
     
 //mongoose.connect(process.env.MONGODB_URI);
-mongoose.connect("mongodb://localhost/yelpr");
+mongoose.connect("mongodb://jorgevilasboas:Mame32#@@ds163721.mlab.com:63721/yelpcampjvb");
 app.use(bodyParser.urlencoded({extended: true}));
 app.set("view engine", "ejs");
 app.use(express.static(__dirname + "/public"));
